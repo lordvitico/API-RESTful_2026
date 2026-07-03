@@ -1,0 +1,24 @@
+{
+  "name": "api-restful",
+  "version": "1.0.0",
+  "description": "API RESTful estructurada con características nativas de Node.js",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env src/app.js",
+    "dev": "node --env-file=.env --watch src/app.js",
+    "test": "node --test src/tests/**/*.test.js"
+  },
+  "keywords": [
+    "node",
+    "api",
+    "restful",
+    "esm",
+    "backend"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.0.0"
+  }
+}

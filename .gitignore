@@ -1,0 +1,21 @@
+# 1. Dependencias (esta carpeta se crea directamente al instalar paquetes con npm o yarn)
+node_modules/
+
+# 2. Variables de entorno y secretos (protege las credenciales y configuraciones sensibles)
+.env
+.env.*
+!.env.example
+
+# 3. Logs y registros de errores (protege los archivos de registro que pueden contener información sensible)
+logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# 4. Archivos generados por Sistemas Operativos
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 5. Reportes de pruebas (Testing)
+coverage/
