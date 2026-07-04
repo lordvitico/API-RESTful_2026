@@ -26,7 +26,7 @@ El proyecto sigue el patrón de diseño arquitectónico **MVC (Modelo-Vista-Cont
 
 1. Clonar el repositorio:
    ~$ bash
-   git clone [https://github.com/TU_USUARIO/api-restful-moderna.git] (https://github.com/lordvitico/API-RESTful_2026.git)
+   git clone [https://github.com/lordvitico/api-restful-moderna.git] (https://github.com/lordvitico/API-RESTful_2026.git)
    cd api-restful-moderna
 
 2. Instalar dependencias:
